@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frame 4 - Split-Screen Power</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script defer src="../js/frame4.js"></script>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Project List</h2>
+      <ul class="project-list">
+        <li>🧠 Research Dashboard</li>
+        <li class="selected">🎨 Website Redesign</li>
+        <li>📊 Data Cleanup</li>
+        <li>📝 Writing Project</li>
+      </ul>
+    </aside>
+
+    <main class="main-view">
+      <div class="layout-selector">
+        <button class="layout-btn active" data-layout="notes-tab">📝 Notes + 🌐 Tab</button>
+        <button class="layout-btn" data-layout="tab-tab">🌐 Tab + 🌐 Tab</button>
+        <button class="layout-btn" data-layout="doc-doc">📄 Doc + 📄 Doc</button>
+      </div>
+
+      <div class="split-layouts">
+        <div class="split-screen layout-notes-tab active-layout">
+          <div class="pane">
+            <h2>📝 Project Notes</h2>
+            <p>Write your thoughts, meeting summaries, or brainstorms here.</p>
+          </div>
+          <div class="pane">
+            <h2>🌐 Client Homepage</h2>
+            <p>Live site preview or research material.</p>
+          </div>
+        </div>
+
+        <div class="split-screen layout-tab-tab">
+          <div class="pane">
+            <h2>🌐 Site A</h2>
+            <p>Comparison view of one website.</p>
+          </div>
+          <div class="pane">
+            <h2>🌐 Site B</h2>
+            <p>Comparison view of another site side-by-side.</p>
+          </div>
+        </div>
+
+        <div class="split-screen layout-doc-doc">
+          <div class="pane">
+            <h2>📄 Draft Document</h2>
+            <p>Work-in-progress documentation or writing.</p>
+          </div>
+          <div class="pane">
+            <h2>📄 Reference Notes</h2>
+            <p>Old specs or helpful references while editing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <a href="frame3.html" class="nav-btn">⬅ Previous</a>
+        <a href="frame5.html" class="nav-btn">Next ➡</a>
+      </div> 
+    </main>
+  </div>
+</body>
+</html>

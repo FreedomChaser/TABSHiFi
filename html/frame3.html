@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frame 3 - Tab Types</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Project List</h2>
+      <ul class="project-list">
+        <li>🧠 Research Dashboard</li>
+        <li class="selected">🎨 Website Redesign</li>
+        <li>📊 Data Cleanup</li>
+        <li>📝 Writing Project</li>
+      </ul>
+      <h2>Project Artifacts</h2>
+      <div class="artifact-grid">
+        <div class="artifact">📄 Brief</div>
+        <div class="artifact">🎨 Moodboard</div>
+        <div class="artifact">🛠️ Tools</div>
+        <div class="artifact">📊 Reports</div>
+      </div>
+    </aside>
+
+    <main class="main-view">
+    <!--
+      <div class="tab-bar">
+        <div class="tab persistent">📄 Client Brief</div>
+        <div class="tab persistent">🎨 Moodboard</div>
+        <div class="tab temporary">⏳ CSS Reference</div>
+        <div class="tab temporary">⏳ New Tool Docs</div>
+      </div>
+    -->
+      <div class="caption-row">
+        <div class="caption-box"><strong>📄 Persistent Tabs:</strong> These reopen every time the project is loaded.</div>
+        <div class="caption-box"><strong>⏳ Temporary Tabs:</strong> Meant for quick reference. Promote to save.</div>
+      </div>
+      <div class="split-screen">
+        <div class="pane">
+            <h2>📊 Reports</h2>
+            <ul class="browser-tabs">
+              <li class="tab active">📄 Client Brief</li>
+              <li class="tab">⏳ Power Bi</li>
+              <li class="tab">📄 Slack</li>
+            </ul>
+            <p>📄 Placeholder for a persistent tab.</p>
+        </div>
+        <div class="pane">
+            <h2>🛠️ Tools</h2>
+            <ul class="browser-tabs">
+              <li class="tab active">⏳ CSS Style Guide </li>
+              <li class="tab">📄 Medium</li>
+              <li class="tab">📄 On hover tips</li>
+            </ul>
+          <p>⏳ Placeholder for a temporary research tab.</p>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <a href="frame2.html" class="nav-btn">⬅ Previous</a>
+        <a href="frame4.html" class="nav-btn">Next ➡</a>
+      </div> 
+    </main>
+  </div>
+</body>
+</html>
